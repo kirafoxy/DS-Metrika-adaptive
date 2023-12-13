@@ -1,0 +1,32 @@
+.flat__img{
+    margin: 0 auto;
+    margin-bottom: 150px;
+    position: relative;
+    background-image: url(../images/Rectangle9.png);
+    height: 717px;
+    min-width: 1400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+
+}
+.flat__img-text{
+    position: absolute;
+    top: 578px;
+    width: 430px;
+    font-size: 30px;
+    line-height: 40.98px;
+    letter-spacing: -0.8px;
+    color: #FFF;
+
+}
+
+@media (max-width: 1199px){
+
+    
+}
+
+@media (max-width: 767px) {
+    
+    
+}

@@ -1,0 +1,78 @@
+@import url(../styles/about.css);
+@import url(../styles/introduction.css);
+@import url(../styles/projects.css);
+@import url(../styles/services.css);
+@import url(../styles/flat.css);
+@import url(../styles/contacts.css);
+@import url(../styles/footer.css);
+@import url(../styles/header.css);
+@import url(../styles/feedbacks.css);
+@import url(../styles/gallery.css);
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    font-family: 'Manrope';
+    background: #fff;
+    color: #121212;
+    
+}
+
+section{
+    padding-bottom: 150px;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 1150px;
+    
+}
+.heading{
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    letter-spacing: -0.54px;
+
+}
+
+@media (max-width: 1199px) {
+
+    section {
+        padding-bottom: 120px;
+    }
+    
+    .container {
+        width: 100%;
+        padding: 0 15px
+    }
+    section.projects {
+        padding-bottom: 0px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+
+    section {
+        padding-bottom: 80px;
+    }
+
+    .heading {
+        margin-bottom: 20px;
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+    
+    .container {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+   
+}
+
